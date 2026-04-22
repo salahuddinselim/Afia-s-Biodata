@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afia Tasnim Ria | Biodata</title>
+    <meta name="description" content="Marriage biodata of Afia Tasnim Ria - CSE Undergraduate">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --cream: #FDFBF7;
+            --blush: #F5E6E8;
+            --blush-dark: #E8D4D6;
+            --soft-gold: #C9B896;
+            --lavender: #E8E3F0;
+            --lavender-dark: #D4CFE0;
+            --text-dark: #2C2825;
+            --text-muted: #6B6560;
+            --white: #FFFFFF;
+            --shadow-sm: 0 2px 12px rgba(44, 40, 37, 0.06);
+            --shadow-md: 0 8px 24px rgba(44, 40, 37, 0.08);
+            --shadow-lg: 0 16px 48px rgba(44, 40, 37, 0.12);
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --transition: 0.3s ease;
+            --font-heading: 'Playfair Display', Georgia, serif;
+            --font-body: 'Inter', -apple-system, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--cream);
+            color: var(--text-dark);
+            line-height: 1.7;
+            font-weight: 400;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 clamp(20px, 5vw, 40px);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: var(--font-heading);
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-size: clamp(36px, 8vw, 72px);
+        }
+
+        h2 {
+            font-size: clamp(28px, 5vw, 48px);
+        }
+
+        h3 {
+            font-size: clamp(20px, 3vw, 28px);
+        }
+
+        p {
+            font-size: clamp(14px, 1.5vw, 18px);
+        }
+
+        /* Navigation */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 20px 0;
+            transition: var(--transition);
+        }
+
+        .nav.scrolled {
+            background: rgba(253, 251, 247, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: var(--shadow-sm);
+            padding: 12px 0;
+        }
+
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            font-family: var(--font-heading);
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+        }
+
+        .nav-link {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-muted);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--soft-gold);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--text-dark);
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .nav-hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .nav-hamburger span {
+            width: 24px;
+            height: 2px;
+            background: var(--text-dark);
+            transition: var(--transition);
+        }
+
+        .nav-hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+
+        .nav-hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .nav-hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+
+        /* Mobile Menu */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            max-width: 320px;
+            height: 100vh;
+            background: var(--white);
+            padding: 100px 40px 40px;
+            transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 999;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        .mobile-menu-links {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .mobile-menu-link {
+            font-size: 24px;
+            font-family: var(--font-heading);
+            font-weight: 500;
+        }
+
+        .menu-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(44, 40, 37, 0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 998;
+        }
+
+        .menu-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 100px clamp(20px, 5vw, 80px) 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 80%;
+            height: 150%;
+            background: radial-gradient(ellipse at center, var(--blush) 0%, transparent 70%);
+            opacity: 0.6;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 60%;
+            height: 100%;
+            background: radial-gradient(ellipse at center, var(--lavender) 0%, transparent 60%);
+            opacity: 0.5;
+        }
+
+        .hero-content {
+            text-align: center;
+            max-width: 800px;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 10px 24px;
+            background: var(--white);
+            border: 1px solid var(--blush-dark);
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 32px;
+        }
+
+        .hero-title {
+            margin-bottom: 16px;
+            color: var(--text-dark);
+        }
+
+        .hero-title span {
+            color: var(--soft-gold);
+        }
+
+        .hero-subtitle {
+            font-size: clamp(16px, 2.5vw, 22px);
+            color: var(--text-muted);
+            margin-bottom: 48px;
+            font-weight: 300;
+        }
+
+        .hero-details {
+            display: flex;
+            justify-content: center;
+            gap: clamp(32px, 6vw, 64px);
+            flex-wrap: wrap;
+            margin-bottom: 48px;
+        }
+
+        .hero-detail {
+            text-align: center;
+        }
+
+        .hero-detail-value {
+            font-family: var(--font-heading);
+            font-size: clamp(24px, 4vw, 36px);
+            font-weight: 600;
+            color: var(--text-dark);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .hero-detail-label {
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 40px;
+            background: var(--text-dark);
+            color: var(--white);
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .hero-cta:hover {
+            background: #1a1817;
+            transform: translateY(-2px);
+        }
+
+        .hero-cta svg {
+            width: 18px;
+            height: 18px;
+            transition: transform 0.3s ease;
+        }
+
+        .hero-cta:hover svg {
+            transform: translateX(4px);
+        }
+
+        /* Section Common */
+        .section {
+            padding: clamp(80px, 10vw, 120px) 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: clamp(48px, 8vw, 80px);
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--soft-gold);
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            color: var(--text-dark);
+        }
+
+        /* About Section */
+        .about {
+            background: var(--white);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: clamp(32px, 6vw, 80px);
+            align-items: center;
+        }
+
+        .about-image {
+            position: relative;
+            aspect-ratio: 4/5;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--blush) 0%, var(--lavender) 100%);
+        }
+
+        .about-image-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .about-image::before {
+            content: '';
+            position: absolute;
+            inset: 20px;
+            border: 1px solid var(--soft-gold);
+            border-radius: var(--radius-md);
+            opacity: 0.5;
+        }
+
+        .about-content {
+            padding: 20px 0;
+        }
+
+        .about-intro {
+            font-size: clamp(18px, 2.5vw, 26px);
+            font-family: var(--font-heading);
+            color: var(--text-dark);
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+
+        .about-text {
+            color: var(--text-muted);
+            margin-bottom: 32px;
+        }
+
+        .about-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .about-feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .about-feature-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--blush);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 20px;
+        }
+
+        .about-feature-text h4 {
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .about-feature-text p {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        /* Education Section */
+        .education {
+            background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--blush-dark);
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 48px;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            text-align: right;
+            padding-right: clamp(32px, 6vw, 60px);
+            padding-left: 0;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            text-align: left;
+            padding-left: clamp(32px, 6vw, 60px);
+            padding-right: 0;
+        }
+
+        .timeline-dot {
+            width: 20px;
+            height: 20px;
+            background: var(--soft-gold);
+            border: 4px solid var(--cream);
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        .timeline-content {
+            width: 50%;
+            padding: 24px;
+            background: var(--white);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .timeline-year {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: var(--soft-gold);
+            margin-bottom: 8px;
+        }
+
+        .timeline-title {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .timeline-subtitle {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        /* Details Grid */
+        .details {
+            background: var(--white);
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .details-card {
+            background: var(--cream);
+            padding: 32px;
+            border-radius: var(--radius-md);
+            transition: var(--transition);
+        }
+
+        .details-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .details-card-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .details-card-icon {
+            width: 56px;
+            height: 56px;
+            background: var(--white);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .details-card h3 {
+            font-size: 20px;
+        }
+
+        .details-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .details-list li {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(107, 101, 96, 0.1);
+        }
+
+        .details-list li:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .details-list span:first-child {
+            color: var(--text-muted);
+        }
+
+        .details-list span:last-child {
+            font-weight: 500;
+            text-align: right;
+        }
+
+        .skills-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            padding: 8px 16px;
+            background: var(--white);
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-muted);
+            transition: var(--transition);
+        }
+
+        .skill-tag:hover {
+            background: var(--soft-gold);
+            color: var(--white);
+        }
+
+        .hobbies-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .hobby-tag {
+            padding: 10px 20px;
+            background: var(--white);
+            border-radius: var(--radius-sm);
+            font-size: 14px;
+            color: var(--text-dark);
+        }
+
+        /* Family Section */
+        .family {
+            background: var(--blush);
+        }
+
+        .family-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+        }
+
+        .family-card {
+            background: var(--white);
+            padding: 32px;
+            border-radius: var(--radius-md);
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .family-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .family-card-icon {
+            width: 72px;
+            height: 72px;
+            background: var(--blush);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 28px;
+        }
+
+        .family-card h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .family-card p {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .family-values {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 48px;
+        }
+
+        .family-value {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 20px;
+            background: var(--white);
+            border-radius: var(--radius-sm);
+        }
+
+        .family-value-icon {
+            width: 32px;
+            height: 32px;
+            background: var(--soft-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 14px;
+        }
+
+        .family-value span {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Gallery Section */
+        .gallery {
+            background: var(--white);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            aspect-ratio: 1;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--lavender) 0%, var(--blush) 100%);
+            position: relative;
+        }
+
+        .gallery-item::after {
+            content: attr(data-label);
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: var(--radius-sm);
+            font-size: 13px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover::after {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .gallery-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        /* Contact Section */
+        .contact {
+            background: linear-gradient(180deg, var(--cream) 0%, var(--lavender) 100%);
+            text-align: center;
+        }
+
+        .contact-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--white);
+            padding: clamp(40px, 8vw, 64px);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .contact-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--blush);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 32px;
+        }
+
+        .contact-card h2 {
+            font-size: clamp(24px, 4vw, 36px);
+            margin-bottom: 16px;
+        }
+
+        .contact-card p {
+            color: var(--text-muted);
+            margin-bottom: 32px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-size: 15px;
+        }
+
+        .contact-item-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--cream);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-cta {
+            display: inline-block;
+            padding: 16px 48px;
+            background: var(--text-dark);
+            color: var(--white);
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .contact-cta:hover {
+            background: #1a1817;
+            transform: translateY(-2px);
+        }
+
+        .contact-note {
+            margin-top: 24px;
+            font-size: 13px;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--text-dark);
+            color: var(--white);
+            padding: 48px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        .footer span {
+            color: var(--soft-gold);
+        }
+
+        /* Responsive */
+        @media (max-width: 1023px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .about-image {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+
+            .about-features {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .nav-links {
+                display: none;
+            }
+
+            .nav-hamburger {
+                display: flex;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(odd) {
+                flex-direction: column;
+                align-items: flex-start;
+                padding-left: 50px;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content {
+                text-align: left;
+                padding: 24px;
+            }
+
+            .timeline-item:nth-child(even) .timeline-content {
+                padding: 24px;
+            }
+
+            .timeline-dot {
+                left: 20px;
+            }
+
+            .timeline-content {
+                width: 100%;
+            }
+
+            .about-features {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-details {
+                flex-direction: column;
+                gap: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .family-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container nav-inner">
+            <a href="#" class="nav-logo">Afia Tasnim Ria</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#details" class="nav-link">Details</a>
+                <a href="#family" class="nav-link">Family</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-links">
+            <a href="#about" class="mobile-menu-link">About</a>
+            <a href="#education" class="mobile-menu-link">Education</a>
+            <a href="#details" class="mobile-menu-link">Details</a>
+            <a href="#family" class="mobile-menu-link">Family</a>
+            <a href="#gallery" class="mobile-menu-link">Gallery</a>
+            <a href="#contact" class="mobile-menu-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <span class="hero-badge">Marriage Biodata</span>
+            <h1 class="hero-title">Afia <span>Tasnim Ria</span></h1>
+            <p class="hero-subtitle">Building tomorrow's technology with today's passion</p>
+            <div class="hero-details">
+                <div class="hero-detail">
+                    <span class="hero-detail-value">22</span>
+                    <span class="hero-detail-label">Age</span>
+                </div>
+                <div class="hero-detail">
+                    <span class="hero-detail-value">CSE</span>
+                    <span class="hero-detail-label">Department</span>
+                </div>
+                <div class="hero-detail">
+                    <span class="hero-detail-value">2027</span>
+                    <span class="hero-detail-label">Graduation</span>
+                </div>
+            </div>
+            <a href="#about" class="hero-cta">
+                Know More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-placeholder">Place Hero Image Here</div>
+                </div>
+                <div class="about-content">
+                    <div class="section-header" style="text-align: left; margin-bottom: 24px;">
+                        <span class="section-label">About Me</span>
+                        <h2 class="section-title">A Glimpse Into Who I Am</h2>
+                    </div>
+                    <p class="about-intro">I am a passionate CSE student who believes in the power of technology to create meaningful change in the world.</p>
+                    <p class="about-text">Currently in my 3rd year of B.Tech in Computer Science & Engineering, I combine my technical skills with creative thinking to solve complex problems. I come from a family that values education, integrity, and compassion above all else.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">🎯</div>
+                            <div class="about-feature-text">
+                                <h4>Ambitious</h4>
+                                <p>Always eager to learn and grow</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">💝</div>
+                            <div class="about-feature-text">
+                                <h4>Compassionate</h4>
+                                <p>Value meaningful connections</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">⚡</div>
+                            <div class="about-feature-text">
+                                <h4>Determined</h4>
+                                <p>See challenges as opportunities</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">🌱</div>
+                            <div class="about-feature-text">
+                                <h4>Grounded</h4>
+                                <p>Stay humble and true to roots</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Educational Journey</span>
+                <h2 class="section-title">My Academic Path</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2023 - 2027</span>
+                        <h3 class="timeline-title">B.Tech in CSE</h3>
+                        <p class="timeline-subtitle">[University Name], [City]</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2021 - 2023</span>
+                        <h3 class="timeline-title">Higher Secondary (Science)</h3>
+                        <p class="timeline-subtitle">[College Name], [City] — 95%</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2019 - 2021</span>
+                        <h3 class="timeline-title">Secondary Education</h3>
+                        <p class="timeline-subtitle">[School Name], [City] — 96%</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section class="section details" id="details">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Personal Information</span>
+                <h2 class="section-title">Details That Define Me</h2>
+            </div>
+            <div class="details-grid">
+                <div class="details-card">
+                    <div class="details-card-header">
+                        <div class="details-card-icon">👤</div>
+                        <h3>Basic Details</h3>
+                    </div>
+                    <ul class="details-list">
+                        <li><span>Full Name</span><span>Afia Tasnim Ria</span></li>
+                        <li><span>Age</span><span>22 years</span></li>
+                        <li><span>Date of Birth</span><span>[DD/MM/YYYY]</span></li>
+                        <li><span>Height</span><span>5'4" (162 cm)</span></li>
+                        <li><span>Complexion</span><span>Fair</span></li>
+                        <li><span>Religion</span><span>Islam</span></li>
+                        <li><span>Nationality</span><span>Bangladeshi</span></li>
+                    </ul>
+                </div>
+                <div class="details-card">
+                    <div class="details-card-header">
+                        <div class="details-card-icon">🎓</div>
+                        <h3>Academic Profile</h3>
+                    </div>
+                    <ul class="details-list">
+                        <li><span>Current Course</span><span>B.Tech CSE</span></li>
+                        <li><span>University</span><span>[University Name]</span></li>
+                        <li><span>Current Year</span><span>3rd Year</span></li>
+                        <li><span>Expected Year</span><span>2027</span></li>
+                        <li><span>CGPA</span><span>[Your CGPA]</span></li>
+                        <li><span>12th Grade</span><span>95%</span></li>
+                        <li><span>10th Grade</span><span>96%</span></li>
+                    </ul>
+                </div>
+                <div class="details-card">
+                    <div class="details-card-header">
+                        <div class="details-card-icon">💻</div>
+                        <h3>Technical Skills</h3>
+                    </div>
+                    <div class="skills-wrap">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                    </div>
+                </div>
+                <div class="details-card">
+                    <div class="details-card-header">
+                        <div class="details-card-icon">🎨</div>
+                        <h3>Interests & Hobbies</h3>
+                    </div>
+                    <div class="hobbies-list">
+                        <span class="hobby-tag">Coding</span>
+                        <span class="hobby-tag">Reading</span>
+                        <span class="hobby-tag">Music</span>
+                        <span class="hobby-tag">Sketching</span>
+                        <span class="hobby-tag">Cooking</span>
+                        <span class="hobby-tag">Traveling</span>
+                        <span class="hobby-tag">Fitness</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Family Section -->
+    <section class="section family" id="family">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Family Background</span>
+                <h2 class="section-title">The People I Love</h2>
+            </div>
+            <div class="family-grid">
+                <div class="family-card">
+                    <div class="family-card-icon">👨</div>
+                    <h3>Father</h3>
+                    <p>[Father's Name]<br>[Profession]<br>[Company]</p>
+                </div>
+                <div class="family-card">
+                    <div class="family-card-icon">👩</div>
+                    <h3>Mother</h3>
+                    <p>[Mother's Name]<br>Housewife<br> or [Profession]</p>
+                </div>
+                <div class="family-card">
+                    <div class="family-card-icon">👦</div>
+                    <h3>Siblings</h3>
+                    <p>[Brother/Sister 1] — [Age], [Profession/Study]<br>[Brother/Sister 2] — [Age], [Profession/Study]</p>
+                </div>
+                <div class="family-card">
+                    <div class="family-card-icon">👴</div>
+                    <h3>Extended Family</h3>
+                    <p>From [City/District]<br>Residing in [City]<br>Well-connected relatives</p>
+                </div>
+            </div>
+            <div class="family-values">
+                <div class="family-value">
+                    <div class="family-value-icon">✓</div>
+                    <span>Islamic Values</span>
+                </div>
+                <div class="family-value">
+                    <div class="family-value-icon">✓</div>
+                    <span>Education First</span>
+                </div>
+                <div class="family-value">
+                    <div class="family-value-icon">✓</div>
+                    <span>Respect for Elders</span>
+                </div>
+                <div class="family-value">
+                    <div class="family-value-icon">✓</div>
+                    <span>Strong Bonds</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Moments</span>
+                <h2 class="section-title">Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-label="Profile Photo">
+                    <div class="gallery-placeholder">Place Image Here</div>
+                </div>
+                <div class="gallery-item" data-label="With Family">
+                    <div class="gallery-placeholder">Place Image Here</div>
+                </div>
+                <div class="gallery-item" data-label="At University">
+                    <div class="gallery-placeholder">Place Image Here</div>
+                </div>
+                <div class="gallery-item" data-label="Creative Work">
+                    <div class="gallery-placeholder">Place Image Here</div>
+                </div>
+                <div class="gallery-item" data-label="Friends">
+                    <div class="gallery-placeholder">Place Image Here</div>
+                </div>
+                <div class="gallery-item" data-label="Hobby">
+                    <div class="gallery-placeholder">Place Image Here</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-icon">💌</div>
+                <h2>Let's Connect</h2>
+                <p>We welcome genuine inquiries from suitable prospects and their families. Please reach out to know more.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📞</div>
+                        <span>[Phone Number]</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">✉️</div>
+                        <span>[email@example.com]</span>
+                    </div>
+                </div>
+                <a href="tel:+[phonenumber]" class="contact-cta">Contact Guardian</a>
+                <p class="contact-note">All inquiries are handled with strict confidentiality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Made with <span>♥</span> for a beautiful journey ahead</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Navbar scroll effect
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const mobileLinks = document.querySelectorAll('.mobile-menu-link');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+            menuOverlay.classList.toggle('active');
+        });
+
+        menuOverlay.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            mobileMenu.classList.remove('active');
+            menuOverlay.classList.remove('active');
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                menuOverlay.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // GSAP Animations
+        // Hero animations
+        const heroTl = gsap.timeline({ defaults: { ease: 'power2.out' } });
+        
+        heroTl.from('.hero-badge', { y: 30, opacity: 0, duration: 0.8 })
+             .from('.hero-title', { y: 40, opacity: 0, duration: 1 }, '-=0.6')
+             .from('.hero-subtitle', { y: 30, opacity: 0, duration: 0.8 }, '-=0.7')
+             .from('.hero-detail', { y: 30, opacity: 0, duration: 0.8, stagger: 0.1 }, '-=0.5')
+             .from('.hero-cta', { y: 20, opacity: 0, duration: 0.6 }, '-=0.3');
+
+        // About section
+        gsap.from('.about-image', {
+            scrollTrigger: { trigger: '.about', start: 'top 80%' },
+            x: -50, opacity: 0, duration: 1
+        });
+
+        gsap.from('.about-content > *', {
+            scrollTrigger: { trigger: '.about', start: 'top 70%' },
+            y: 40, opacity: 0, duration: 0.8, stagger: 0.15
+        });
+
+        // Education timeline
+        gsap.from('.timeline-item', {
+            scrollTrigger: { trigger: '.timeline', start: 'top 75%' },
+            y: 50, opacity: 0, duration: 0.8, stagger: 0.2
+        });
+
+        // Details cards
+        gsap.from('.details-card', {
+            scrollTrigger: { trigger: '.details', start: 'top 75%' },
+            y: 40, opacity: 0, duration: 0.8, stagger: 0.1
+        });
+
+        // Family cards
+        gsap.from('.family-card', {
+            scrollTrigger: { trigger: '.family', start: 'top 75%' },
+            y: 40, opacity: 0, duration: 0.8, stagger: 0.1
+        });
+
+        gsap.from('.family-value', {
+            scrollTrigger: { trigger: '.family-values', start: 'top 85%' },
+            x: -30, opacity: 0, duration: 0.6, stagger: 0.08
+        });
+
+        // Gallery items
+        gsap.from('.gallery-item', {
+            scrollTrigger: { trigger: '.gallery', start: 'top 75%' },
+            y: 30, opacity: 0, duration: 0.7, stagger: 0.1
+        });
+
+        // Contact card
+        gsap.from('.contact-card', {
+            scrollTrigger: { trigger: '.contact', start: 'top 80%' },
+            y: 50, opacity: 0, duration: 1
+        });
+    </script>
+</body>
+</html>
